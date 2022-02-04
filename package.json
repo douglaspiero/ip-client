@@ -1,0 +1,25 @@
+{
+  "name": "ip-client",
+  "version": "1.0.0",
+  "description": "IP REMOTE",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaspiero/ip-client.git"
+  },
+  "author": "Douglas Piero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglaspiero/ip-client/issues"
+  },
+  "homepage": "https://github.com/douglaspiero/ip-client#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "request-ip": "^2.1.3"
+  }
+}
